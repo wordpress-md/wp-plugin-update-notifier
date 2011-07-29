@@ -18,10 +18,10 @@
 
 
 // Constants for the plugin name, folder and remote XML url
-define( 'NOTIFIER_PLUGIN_NAME', 'PriceTables Post Type' ); // The plugin name
-define( 'NOTIFIER_PLUGIN_FOLDER_NAME', 'pricetables-post-type' ); // The plugin folder name
-define( 'NOTIFIER_PLUGIN_FILE_NAME', 'pricetables-post-type.php' ); // The plugin file name
-define( 'NOTIFIER_XML_FILE', 'http://update.pricetables.wordpress.md/notifier.xml' ); // The remote notifier XML file containing the latest version of the plugin and changelog
+define( 'NOTIFIER_PLUGIN_NAME', 'Your Plugin Name' ); // The plugin name
+define( 'NOTIFIER_PLUGIN_FOLDER_NAME', 'plugin-folder-name' ); // The plugin folder name
+define( 'NOTIFIER_PLUGIN_FILE_NAME', 'plugin-filename.php' ); // The plugin file name
+define( 'NOTIFIER_XML_FILE', 'http://yourURL.tld/notifier.xml' ); // The remote notifier XML file containing the latest version of the plugin and changelog
 define( 'NOTIFIER_CACHE_INTERVAL', 3600 ); // The time interval for the remote XML cache in the database (21600 seconds = 6 hours)
 
 
